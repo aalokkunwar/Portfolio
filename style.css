@@ -43,6 +43,35 @@ main .container-fluid::before {
 .nav .navigation.active .bx{
     color: #149ddd !important;
 }
+.social1 i{
+    transition: transform 0.5s ease-in-out;
+}
+.social1 i:hover {
+background: green !important;
+transform: rotate(360deg);
+}
+
+.social2 i{
+    transition: transform 0.5s ease-in-out;
+}
+.social2 i:hover {
+    background: rgb(0, 15, 128) !important;
+    transform: rotate(360deg);
+    }
+    .social3 i{
+        transition: transform 0.5s ease-in-out;
+    }
+    .social3 i:hover {
+        background: rgb(209, 23, 23) !important;
+        transform: rotate(360deg);
+        }
+        .social4 i{
+            transition: transform 0.5s ease-in-out;
+        }
+        .social4 i:hover {
+            background: rgb(0, 15, 128) !important;
+            transform: rotate(360deg);
+            }
 
 /* About section css start from here  */
 #about h2 ,#about h3 {
@@ -162,8 +191,6 @@ color: #149ddd;
 }
 #portfolio .portfolio-item{
     transition: all ease-in-out 0.3s;
-
-
 }
 
 #portfolio .portfolio-item:hover img {
@@ -293,19 +320,31 @@ color: black;
     left: 40%;
 }
 
+
 /* ========CSS END FOR CONTACT SECTION ======= */
 @media (max-width: 1024px) {
     .nav{
         padding-left: 0;
     padding-right: 0;
-    height: 109vh;
-       
+    height: 109vh;  
     }
- 
 }
-@media (max-width: 768px) {
+
+@media (max-width: 992px) {
     .nav{
-        display: none !important;
+        display: none !important;  
+    }
+    .btn-toggle{
+        /* display: block !important; */
+        z-index: 3 !important;
+        transition: transform 0.3s ease-in-out;
+    }
+    .btn-toggle:hover{
+        transform: rotate(90deg);
+    }
+    .navmob{
+       /* display: block !important; */
+        z-index: 2;
        
     }
     .container-fluid .name{
@@ -315,6 +354,7 @@ color: black;
         font-size: 20px;
     }
  
+ 
 }
 @media (max-width: 425px) {
     .container-fluid .name{
@@ -323,8 +363,7 @@ color: black;
     #about .uiuxh3{
         transform: translateY(7px);
     }
-   
- 
+
 }
 
 .content {
