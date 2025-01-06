@@ -13,8 +13,14 @@ const navmob = document.querySelector(".navmob");
 const toggleIcon = document.getElementById("toggleIcon");
 navToggleBtn.addEventListener("click", () => {
   if (window.innerWidth <= 992) {
-    navmob.style.display =navmob.style.display === "block" || navmob.style.display === ""? "none": "block";
-    toggleIcon.className = toggleIcon.className === "bi bi-menu-down fw-bolder" ? "bi bi-x-lg fw-bolder" : "bi bi-menu-down fw-bolder";
+    navmob.style.display =
+      navmob.style.display === "block" || navmob.style.display === ""
+        ? "none"
+        : "block";
+    toggleIcon.className =
+      toggleIcon.className === "bi bi-list fw-bolder"
+        ? "bi bi-x-lg fw-bolder"
+        : "bi bi-list fw-bolder";
   }
 });
 //end toggle/////////////////////////////////////
