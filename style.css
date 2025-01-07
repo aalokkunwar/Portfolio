@@ -1,372 +1,370 @@
-*{
-    margin: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  box-sizing: border-box;
 }
-body{
-    font-family: 'Poppins', sans-serif;
-
+body {
+  font-family: "Poppins", sans-serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway", sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
 }
-p{
-    text-align: justify;
+p {
+  text-align: justify;
 }
 main .container-fluid {
-    height: 100vh;
-    background: linear-gradient(rgba(0, 1, 2, 0.7), rgba(0, 0, 0, 0.7)), url(./Media/111.jpg) fixed center center;
-    background-size: cover;
-    
+  height: 100vh;
+  background: linear-gradient(rgba(0, 1, 2, 0.7), rgba(0, 0, 0, 0.7)),
+    url(./Media/111.jpg) fixed center center;
+  background-size: cover;
 }
 main .container-fluid::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: inherit;
-    filter: blur(5px);
-    z-index: 1;
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: inherit;
+  filter: blur(5px);
+  z-index: 1;
 }
-.container-fluid .name{
-    font-size: 50px;
+.container-fluid .name {
+  font-size: 50px;
 }
 
 .nav {
-    padding-left: 0;
-    padding-right: 0;
-    height: 100vh;
+  padding-left: 0;
+  padding-right: 0;
+  height: 100vh;
 }
-.nav .navigation.active .bx{
-    color: #149ddd !important;
+.nav .navigation.active .bx {
+  color: #149ddd !important;
 }
-.social1 i{
-    transition: transform 0.5s ease-in-out;
+.social1 i {
+  transition: transform 0.5s ease-in-out;
 }
 .social1 i:hover {
-background: green !important;
-transform: rotate(360deg);
+  background: green !important;
+  transform: rotate(360deg);
 }
 
-.social2 i{
-    transition: transform 0.5s ease-in-out;
+.social2 i {
+  transition: transform 0.5s ease-in-out;
 }
 .social2 i:hover {
-    background: rgb(0, 15, 128) !important;
-    transform: rotate(360deg);
-    }
-    .social3 i{
-        transition: transform 0.5s ease-in-out;
-    }
-    .social3 i:hover {
-        background: rgb(209, 23, 23) !important;
-        transform: rotate(360deg);
-        }
-        .social4 i{
-            transition: transform 0.5s ease-in-out;
-        }
-        .social4 i:hover {
-            background: rgb(0, 15, 128) !important;
-            transform: rotate(360deg);
-            }
+  background: rgb(0, 15, 128) !important;
+  transform: rotate(360deg);
+}
+.social3 i {
+  transition: transform 0.5s ease-in-out;
+}
+.social3 i:hover {
+  background: rgb(209, 23, 23) !important;
+  transform: rotate(360deg);
+}
+.social4 i {
+  transition: transform 0.5s ease-in-out;
+}
+.social4 i:hover {
+  background: rgb(0, 15, 128) !important;
+  transform: rotate(360deg);
+}
 
 /* About section css start from here  */
-#about h2 ,#about h3 {
-    color: #173b6c;
+#about h2,
+#about h3 {
+  color: #173b6c;
 }
-#about .text-below{
-    height: 3px;
-    transform: translateY(10px);
-    
+#about .text-below {
+  height: 3px;
+  transform: translateY(10px);
 }
-#about .para{
-    font-size: 17px;
+#about .para {
+  font-size: 17px;
 }
-#about ul li{
-    padding: 5px 0px;
-}
-
-#about .uiuxh3{
-    transform: translateY(-7px);
+#about ul li {
+  padding: 5px 0px;
 }
 
+#about .uiuxh3 {
+  transform: translateY(-7px);
+}
 
 /* ABOUT SECTION CSS END HERE  */
 
 /* CSS FOR FACT SECTION STARTED */
-#fact h2 ,#about h3 {
-    color: #173b6c;
+#fact h2,
+#about h3 {
+  color: #173b6c;
 }
-#fact .text-below{
-    height: 3px;
-    transform: translateY(10px);
-    
+#fact .text-below {
+  height: 3px;
+  transform: translateY(10px);
 }
-#fact .text span{
-    color: #173b6c;
+#fact .text span {
+  color: #173b6c;
 }
 /* CSS END FOR FACT SECTION  */
 
 /* start css for skill section  */
-#skill h2 ,#about h3 {
-    color: #173b6c;
+#skill h2,
+#about h3 {
+  color: #173b6c;
 }
-#skill .text-below{
-    height: 3px;
-    transform: translateY(10px);
-    
+#skill .text-below {
+  height: 3px;
+  transform: translateY(10px);
 }
-#skill .prog{
-    font-size: 12px;
-
+#skill .prog {
+  font-size: 12px;
 }
-#skill .progbar{
-    height: 10px;
- }
+#skill .progbar {
+  height: 10px;
+}
 /* END OF CSS FOR SKILL SECTION  */
 /* START OF RESUME SECTION  */
-#resume h2 ,#about h3 {
-    color: #173b6c;
+#resume h2,
+#about h3 {
+  color: #173b6c;
 }
-#resume .text-below{
-    height: 3px;
-    transform: translateY(10px);
-    
+#resume .text-below {
+  height: 3px;
+  transform: translateY(10px);
 }
-#resume .line{
-    border-left: 2px solid #173b6c;
+#resume .line {
+  border-left: 2px solid #173b6c;
 }
-#resume .circle-h{
-    transform: translateY(-8px);
+#resume .circle-h {
+  transform: translateY(-8px);
 }
-#resume .circle{
-    height: 15px;
-    width: 15px;
-    border-radius: 100%;
-    border: 2px solid #173b6c;
-    transform: translate(-32px,-32px);
-    background: white;
+#resume .circle {
+  height: 15px;
+  width: 15px;
+  border-radius: 100%;
+  border: 2px solid #173b6c;
+  transform: translate(-32px, -32px);
+  background: white;
 }
-#resume .paragraph{
-    transform: translateY(-15px);
+#resume .paragraph {
+  transform: translateY(-15px);
 }
-#resume .paragraph ul{
-    transform: translateX(-10px);
+#resume .paragraph ul {
+  transform: translateX(-10px);
 }
-#resume .paragraph ul li{
-    padding: 7px 0px;
+#resume .paragraph ul li {
+  padding: 7px 0px;
 }
-#resume .paragraph h6{
-    font-size: 14px;
-    background: #c9d9ef;
-    padding: 5px 15px;
-    display: inline-block;
-    font-weight: 600;
-    margin-bottom: 10px;
+#resume .paragraph h6 {
+  font-size: 14px;
+  background: #c9d9ef;
+  padding: 5px 15px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
 }
 /* END OF RESUME PAGE  */
 
 /* CSS START FOR PORTFOLIO SECTION  */
-#portfolio h2 ,#about h3 {
-    color: #173b6c;
+#portfolio h2,
+#about h3 {
+  color: #173b6c;
 }
-#portfolio .text-below{
-    height: 3px;
-    transform: translateY(10px);
-    
+#portfolio .text-below {
+  height: 3px;
+  transform: translateY(10px);
 }
-#portfolio .filter-group button{
-    font-size: 15px;
-    font-weight: 600;
-    padding: 4px 12px;
+#portfolio .filter-group button {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 4px 12px;
 }
-#portfolio .filter-group button:hover{
-color: #149ddd;
+#portfolio .filter-group button:hover {
+  color: #149ddd;
 }
-.active{
-    color: #149ddd; 
+.active {
+  color: #149ddd;
 }
-#portfolio .portfolio-item{
-    transition: all ease-in-out 0.3s;
+#portfolio .portfolio-item {
+  transition: all ease-in-out 0.3s;
 }
 
 #portfolio .portfolio-item:hover img {
-filter: opacity(0.5);
-
+  filter: opacity(0.5);
 }
-#portfolio .portfolio-item:hover  .portfolio-link{
-    display: flex !important;
-    position: absolute;
-    bottom: 0;
-    width: 94%;
-    background: rgba(20, 157, 221, 0.75) !important;
+#portfolio .portfolio-item:hover .portfolio-link {
+  display: flex !important;
+  position: absolute;
+  bottom: 0;
+  width: 94%;
+  background: rgba(20, 157, 221, 0.75) !important;
 }
 /* CSS END FOR PORTFOLIO SECTION  */
 
 /* =======CSS FOR SERVICE SECTION======= */
-#service h2 ,#about h3 {
-    color: #173b6c;
+#service h2,
+#about h3 {
+  color: #173b6c;
 }
-#service .text-below{
-    height: 3px;
-    transform: translateY(10px);
-    
+#service .text-below {
+  height: 3px;
+  transform: translateY(10px);
 }
-#service .icons .bi{
-    font-size: 24px;
-    background: #149ddd;
-    border: 1px solid #149ddd ;
-    color: white;
-    padding: 8px 12px;
-    border-radius: 100%;
+#service .icons .bi {
+  font-size: 24px;
+  background: #149ddd;
+  border: 1px solid #149ddd;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 100%;
 }
-#service .detail h5{
-    color: #343a40;
-    font-weight: 700;
-    font-size: 18px;
-    display: inline;
-   
+#service .detail h5 {
+  color: #343a40;
+  font-weight: 700;
+  font-size: 18px;
+  display: inline;
 }
-#service .detail h5:hover{
-    cursor: pointer;
-    color: #149ddd;
-    
+#service .detail h5:hover {
+  cursor: pointer;
+  color: #149ddd;
 }
-#service .col:hover .icons .bi{
-    background:white ;
-    border: 1px solid #149ddd ;
-    color: #149ddd;
+#service .col:hover .icons .bi {
+  background: white;
+  border: 1px solid #149ddd;
+  color: #149ddd;
 }
 
 /* =======END CSS FOR SERVICE SECTION======= */
 
 /* =======START CSS FOR TESTIMONIALS SECTION======= */
-#testimonials h2 ,#about h3 {
-    color: #173b6c;
+#testimonials h2,
+#about h3 {
+  color: #173b6c;
 }
-#testimonials .text-below{
-    height: 3px;
-    transform: translateY(10px);
-    
+#testimonials .text-below {
+  height: 3px;
+  transform: translateY(10px);
 }
 .say {
-   background: white;
-   padding: 5px 20px;
-   margin: 0px 20px;
-   color: black;
-   border-radius: 20px;
-   position: relative;
-   box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
-   
+  background: white;
+  padding: 5px 20px;
+  margin: 0px 20px;
+  color: black;
+  border-radius: 20px;
+  position: relative;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
 }
-.say .bx{
-font-size: 35px;
-color: #149ddd;
-opacity: 0.4;
+.say .bx {
+  font-size: 35px;
+  color: #149ddd;
+  opacity: 0.4;
 }
-.say .low{
-    
-   position: absolute;
-   bottom: -50px;
-   left: 44%;
-   color: white;
-   font-size: 50px;
-   z-index: 2;
+.say .low {
+  position: absolute;
+  bottom: -50px;
+  left: 44%;
+  color: white;
+  font-size: 50px;
+  z-index: 2;
 }
-#testimonials .text-part h6{
-font-size: 18px;
-line-height: 0;
-font-weight: 700;
-color: black;
+#testimonials .text-part h6 {
+  font-size: 18px;
+  line-height: 0;
+  font-weight: 700;
+  color: black;
 }
-#testimonials .text-part p{
-    font-size: 14px;
-   
-    font-weight: 500;
-    color: rgb(89, 87, 87); 
+#testimonials .text-part p {
+  font-size: 14px;
+
+  font-weight: 500;
+  color: rgb(89, 87, 87);
 }
 
 /* =======END CSS FOR TESTIMONIALS SECTION======= */
 
 /* ===========CSS FOR CONTACT SECTION ========== */
-#contact h2 ,#about h3 {
-    color: #173b6c;
+#contact h2,
+#about h3 {
+  color: #173b6c;
 }
-#contact .text-below{
-    height: 3px;
-    transform: translateY(10px);
-    
+#contact .text-below {
+  height: 3px;
+  transform: translateY(10px);
 }
-#contact .box .bi{
-    background-color: #dff3fc;
-    color:#149ddd;
-    font-size: 20px;
-   padding:  7px 10px;
-    border-radius: 50px;
-    transition: all 0.3s ease-in-out;
+#contact .box .bi {
+  background-color: #dff3fc;
+  color: #149ddd;
+  font-size: 20px;
+  padding: 7px 10px;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
 }
-#contact .box h4{
-    font-weight: 600;
+#contact .box h4 {
+  font-weight: 600;
 }
-#contact .box:hover .bi{
-    background: #149ddd;
-    color: white;
+#contact .box:hover .bi {
+  background: #149ddd;
+  color: white;
 }
-.btn-send{
-    bottom: 30px;
-    left: 40%;
+.btn-send {
+  bottom: 30px;
+  left: 40%;
 }
-
 
 /* ========CSS END FOR CONTACT SECTION ======= */
 @media (max-width: 1024px) {
-    .nav{
-        padding-left: 0;
+  .nav {
+    padding-left: 0;
     padding-right: 0;
-    height: 109vh;  
-    }
+    height: 100vh;
+  }
 }
 
 @media (max-width: 992px) {
-    .nav{
-        display: none !important;  
-    }
-    .btn-toggle{
-        /* display: block !important; */
-        z-index: 3 !important;
-        transition: transform 0.3s ease-in-out;
-    }
-    .btn-toggle:hover{
-        transform: rotate(90deg);
-    }
-    .navmob{
-       /* display: block !important; */
-        z-index: 2;
-       
-    }
-    .container-fluid .name{
-        font-size: 30px;
-    }
-    .container-fluid h4{
-        font-size: 20px;
-    }
- 
- 
+  .nav {
+    display: none !important;
+    height: 100vh !important;
+  }
+  .btn-toggle {
+    /* display: block !important; */
+    z-index: 3 !important;
+    transition: transform 0.3s ease-in-out;
+  }
+  .btn-toggle:hover {
+    transform: rotate(90deg);
+  }
+  .navmob {
+    /* display: block !important; */
+    z-index: 2;
+    height: 100vh !important;
+  }
+  .container-fluid .name {
+    font-size: 30px;
+  }
+  .container-fluid h4 {
+    font-size: 20px;
+  }
 }
 @media (max-width: 425px) {
-    .container-fluid .name{
-        font-size: 30px;
-    }
-    #about .uiuxh3{
-        transform: translateY(7px);
-    }
-
+  .container-fluid .name {
+    font-size: 30px;
+  }
+  #about .uiuxh3 {
+    transform: translateY(7px);
+  }
 }
 
 .content {
-    padding-left: 0;
-    padding-right: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* LOGO  */
+.logob {
+  filter: invert(1);
 }
